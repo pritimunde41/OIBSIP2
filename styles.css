@@ -1,0 +1,446 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Roboto+Slab:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color:lightblue;
+    position: absolute;
+    
+    
+    font-family: 'Patua One', cursive;
+    height: 150vh;
+    transition: transform 0.3s ease-in;
+
+}
+.sidebar nav{
+    padding: 0 px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 20px  0;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-right: 100px;
+}
+.sidebargo
+{
+    transform: translate(-443px,0px);
+    position: absolute;
+}
+.main{
+   /*background-color: yellow;*/
+    width:90vw;
+    height: 120vh;
+    
+
+}
+.container{
+    display: flex;
+}
+.infoContainer{
+    /*background-color: rgb(202, 9, 128);*/
+    height: 58vh;
+    width:80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devpic img{
+    /*background-color:rgb(202, 9, 128) ;*/
+    height: 58vh;
+
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Patua One', cursive;
+    font-family: 'Roboto Slab', serif;
+
+}
+.hello{
+    font-size: 3rem;
+}
+.name{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.about{
+    font-size: 3rem;
+
+}
+.buttons button{
+    background-color: rgb(0, 81, 255);
+    padding: 9 px 14 px;
+    color: white;
+    border-radius: 30px;
+    font-size: 20px ;
+    margin:0 3px ;
+    font-weight: bold;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+
+
+.moreabout
+{
+    font-size: 22px;
+    font-family: 'Roboto Slab', serif;
+
+}
+.buttons{
+    margin-top: 34px;
+    
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color:black;
+
+}
+.contactform{
+    padding-top: 144px;
+    padding: 0 34px;
+    font-family: 'Patua One', cursive;
+
+}
+.contactform h1{
+    text-align: center;
+    margin-top: 60px;
+}
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    
+}
+.contactform form div input{
+    padding: 3px;
+    /*width: 300px;*/
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    
+}
+#emailHelp{
+    font-size: 11px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+#form-check{
+    flex-direction: row;
+
+}
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+
+}
+.btn button{
+    background-color: skyblue;
+    width: 60px;
+    
+    border-radius: 10px;
+
+}
+.blogcontainer{
+    padding: 10px;
+}
+.blogitem{
+    padding: 10px;
+}
+.blogitem p{
+
+}
+.blogcontainer h1{
+    margin-top: 60px;
+
+}
+.aboutcontainer{
+    margin: 10px;
+   /*margin-left: 100px;*/
+    margin-top: 50px;
+    font-family: 'Roboto Slab', serif;
+
+}
+.aboutcontainer h2{
+    
+    margin-top: 50px;
+    font-family: 'Roboto Slab', serif;
+
+
+}
+.skillitem {
+    background-color: red;
+    
+    /*margin-left: 100px;*/
+
+    
+}
+.skillcontainer{
+    margin: 10px;
+    
+    /*margin-left: 100px;*/
+}
+.skillcontainer p{
+    margin: 20px;
+    font-family: 'Roboto Slab', serif;
+    
+    
+
+    
+}
+.skillcontainer  div{
+    font-size: 20px;
+    margin: 20px 0;
+}
+.item1{
+    background-color: red;
+    width: 200px;
+    border: 2px silid black;
+    height: 10px;
+    margin-left: 50px;
+    
+}
+.item2{
+    background-color: yellow;
+    width: 150px;
+    border-color: black;
+    border: 2px silid black;
+    height: 10px;
+    
+}
+.item3{
+    background-color: yellow;
+    width: 100px;
+    border-color: black;
+    border: 2px silid black;
+    height: 10px;
+    
+}
+.item4{
+    background-color: yellow;
+    width: 30px;
+    border-color: black;
+    border: 2px silid black;
+    height: 10px;
+    
+}
+.item5{
+    background-color: red;
+    width: 250px;
+    border-color: black;
+    border: 2px silid black;
+    height: 10px;
+    
+}
+.item6{
+    background-color: red;
+    width: 250px;
+    border-color: black;
+    border: 2px silid black;
+    height: 10px;
+    margin: 50px;
+    
+
+}
+.notes h4{
+    
+    font-size: 20px;
+    margin-top: 30px;
+    
+}
+.notes {
+    margin-left: 20px;
+    
+    
+}
+.main h3{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 60px;
+}
+.notes img{
+    width: 50vw;
+    height: 50vh;
+}
+.container{
+    background-image: url(Cute-Plain-Backgrounds-HD.jpg);
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-attachment: fixed;
+    /*background-position: right;*/
+    background-position: center;
+    width: 100%;
+    height: 200vh
+    
+}
+/*.container1{
+    background-image: url(lib1.jpg);
+    background-repeat: no-repeat ;
+    background-size: cover;
+}*/
+.notes div{
+    margin-top: 20px;
+    font-family: 'Roboto Slab', serif;
+    
+}
+.notes1 div{
+    margin-top: 20px;
+    font-family: 'Roboto Slab', serif;
+    
+}
+.notes2 div{
+    margin-top: 20px;
+    font-family: 'Roboto Slab', serif;
+    
+}
+.notes3 div{
+    margin-top: 20px;
+    font-family: 'Roboto Slab', serif;
+    
+}
+.notes4 div{
+    margin-top: 20px;
+    font-family: 'Roboto Slab', serif;
+    
+}
+.notes5 div{
+    margin-top: 20px;
+    font-family: 'Roboto Slab', serif;
+    
+}
+.notes1 {
+    margin-left: 20px;
+    
+}
+.notes2 {
+    margin-left: 20px;
+    
+}
+.notes3 {
+    margin-left: 20px;
+    
+}
+.notes4 {
+    margin-left: 20px;
+    
+}
+.notes5 {
+    margin-left: 20px;
+    
+}
+.notes1 h4{
+    
+    font-size: 20px;
+    margin-top: 30px;
+}
+.notes2 h4{
+    
+    font-size: 20px;
+    margin-top: 30px;
+}
+.notes3 h4{
+    
+    font-size: 20px;
+    margin-top: 30px;
+}
+.notes4 h4{
+    
+    font-size: 20px;
+    margin-top: 30px;
+}
+.notes5 h4{
+    
+    font-size: 20px;
+    margin-top: 30px;
+}
+.unit1 {
+    margin-top: 60px;
+    margin-left: 20px;
+}
+.unit2 {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.unit3 {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.unit4 {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.unit5 {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.cross
+{
+    margin-left: 180px;
+}
+.hammburger
+{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+    
+
+}
+/*@media (max-width:1615px)
+{
+    *{
+
+
+    }
+    .devpic{
+        display: none;
+    }
+
+
+}*/
+.notescontainer{
+    margin-top:50px ;
+}
+/*body{
+    margin: 0;
+    padding:0;
+    background-image: url(.jpg);
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+}*/
+.pdf{
+    margin-top: 50px ;   
+
+}
+embed{
+
+    
+    height: 700px;
+    width: 100%;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
